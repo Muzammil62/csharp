@@ -6,7 +6,7 @@ namespace checkingbalance
     {
         static void Main(string[] args)
         {
-            decimal balance = 1000.00m; // Starting balance
+            decimal balance = 1000.00m; 
 
             Console.WriteLine("Welcome to Checking Balance Program!");
             Console.WriteLine($"Your current balance is: ${balance:F2}");
