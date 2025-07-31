@@ -6,11 +6,10 @@ namespace Program3
     {
         static void Main(string[] args)
         {
-            // Simple parking fee calculator
             Console.Write("Enter hours parked: ");
             if (double.TryParse(Console.ReadLine(), out double hours))
             {
-                double ratePerHour = 2.0; // Fee per hour
+                double ratePerHour = 2.0;
                 double totalFee = Math.Ceiling(hours) * ratePerHour;
                 Console.WriteLine($"Total parking fee: ${totalFee:0.00}");
             }
