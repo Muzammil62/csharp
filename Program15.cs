@@ -1,4 +1,3 @@
-```csharp
 using System;
 
 class Payment
@@ -87,5 +86,5 @@ class Program
         upi.ProcessPayment();
     }
 }
-```
+
 
