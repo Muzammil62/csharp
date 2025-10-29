@@ -1,4 +1,3 @@
-```csharp
 using System;
 
 class Vehicle
@@ -130,5 +129,4 @@ class Program
         phone.DisplaySmartphoneDetails();
     }
 }
-```
  
